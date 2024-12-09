@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Introdução HTML</title>
+    </head>
+    <body>
+        <h1>Introdução HTML na prática</h1>
+        <hr />
+        <h2 id="inicio">índice</h2>
+        <ul>
+            <li><a href="#Apresentacao">Apresentando o Curso</a></li>
+            <li><a href="#Ferramantas">Ferramantas Utilizadas</a></li>
+            <li><a href="#Inspetor">Inspetor de Elementos</a></li>
+            <li><a href="#Estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <li><a href="#Atributos">Atributos das Tags</a></li>
+            <li><a href="#Texto">Textos</a></li>
+            <li><a href="#Listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#Link">Links</a></li>
+        </ul>
+        <h2 id="Apresentacao">Apresentando o Curso</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>Se você já se perguntou como as páginas da web são criadas ou deseja dar os primeiros passos no mundo do desenvolvimento web, este é o lugar certo! O <strong>HTML (HyperText Markup Language)</strong> é a base de qualquer site na internet, funcionando como a "linguagem de estrutura" que organiza e exibe conteúdos como textos, imagens, links e tabelas nos navegadores.</p>
+        <p>Neste <strong>Curso Básico de HTML</strong>, você aprenderá os conceitos fundamentais dessa linguagem de marcação, ideal para iniciantes que querem começar a construir suas próprias páginas. Vamos abordar desde a criação de uma estrutura simples de documento até os principais elementos utilizados no dia a dia de um desenvolvedor.</p>
+        <p>A melhor parte? Você não precisa de conhecimentos prévios! Este curso é perfeito para quem está começando e quer entender como as páginas ganham vida na web.</p>
+        <p>Pronto para mergulhar no universo do HTML e dar o primeiro passo na sua jornada como desenvolvedor? Então continue acompanhando e comece a criar seus próprios sites do zero! 🚀</p>
+
+        <h2 id="Ferramantas">Ferramantas Utilizadas</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>Para começar a criar páginas web com HTML, você não precisa de ferramentas complicadas. Neste curso básico, utilizamos apenas o essencial para que qualquer pessoa possa acompanhar sem dificuldades. Confira abaixo as principais ferramentas que usaremos:</p>
+        <ol>
+            <li><strong>Editor de Texto</strong>
+                <p>Um editor de texto é onde você escreverá o código HTML. Aqui estão algumas opções gratuitas e fáceis de usar:</p>
+                    <ul>
+                        <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code (VS Code)</a>: Um editor moderno, com recursos avançados, como destaque de sintaxe e extensões úteis.</li>
+                        <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a>: Leve e simples, ideal para quem prefere algo direto.</li>
+                        <li><strong>Bloco de Notas (Windows)</strong> ou <strong>TextEdit (Mac)</strong>: Se você não quiser instalar nada, pode usar os editores de texto padrão do seu sistema operacional.</li>
+                    </ul>   
+            </li>
+            <li><strong>Navegador Web</strong>
+                <p>Você usará o navegador para visualizar as páginas HTML criadas. Qualquer navegador moderno funciona, como:</p>
+                    <ul>
+                        <li><strong>Google Chrome</strong></li>
+                        <li><strong>Mozilla Firefox</strong></li>
+                        <li><strong>Microsoft Edge</strong></li>
+                        <li><strong>Safari</strong></li>
+                    </ul>
+            </li>
+            <li><strong>Navegador com Ferramentas de Desenvolvedor</strong>
+                <p>Todos os navegadores modernos possuem ferramentas embutidas para desenvolvedores. Essas ferramentas permitem inspecionar e depurar o código da sua página. Você pode acessá-las pressionando <strog>F12</strog> ou clicando com o botão direito do mouse e escolhendo "Inspecionar".</p>
+            </li>
+            <li><strong>Pasta no Computador</strong></li>
+                 <p>Para organizar seus projetos, crie uma pasta específica onde você armazenará os arquivos HTML e outros conteúdos, como imagens ou folhas de estilo (CSS), caso sejam usados no futuro.</p>
+            <li><strong>Acesso à Internet (Opcional)</strong></li>
+                <p>Embora seja possível criar páginas HTML offline, o acesso à internet pode ser útil para:</p>
+                    <ul>
+                        <li>Pesquisar dúvidas e referências.</li>
+                        <li>Baixar ferramentas ou imagens.</li>
+                        <li>Explorar mais recursos para aprendizado.</li>
+                    </ul>
+        </ol>
+        <p>Com essas ferramentas simples, você já está preparado para acompanhar o curso e começar a criar suas próprias páginas web. O mais importante é praticar e se divertir durante o processo! 😊</p>
+        
+        <h2 id="Inspetor">Inspetor de Elementos</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>O <strong>Inspetor de Elementos</strong> é uma ferramenta embutida nos navegadores modernos que permite visualizar e editar temporariamente o código HTML, CSS e JavaScript de uma página web diretamente no navegador. Ele é uma excelente forma de aprender, depurar problemas e experimentar mudanças no código de forma interativa.</p>
+        <ul>
+            <p><strong>Para que Serve o Inspetor de Elementos?</strong></p>
+            <li><strong>Visualizar o Código da Página:</strong> Veja a estrutura HTML e os estilos CSS aplicados a cada elemento.</li>
+            <li><strong>Testar Alterações no Código:</strong> Faça mudanças no HTML ou CSS para ver como elas afetam a página em tempo real.</li>
+            <li><strong>Identificar Problemas:</strong> Depure erros de estilo ou funcionalidade, como alinhamento de elementos ou comportamento de scripts.</li>
+            <li><strong>Analisar Páginas de Terceiros:</strong> Descubra como outros sites são construídos, o que pode ser útil para aprendizado. Apartir do atalho F12 ou Ctrl + Shift + I (Windows)</li>
+        </ul>
+
+        <h2 id="Estrutura">Estrutura Básica do HTML</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>Todo documento HTML segue uma estrutura básica que define como o conteúdo será organizado e interpretado pelo navegador. Essa estrutura é simples, mas essencial para criar páginas funcionais e bem estruturadas.</p>
+        <img src="https://jefalmeida1.github.io/Portfolio/html5/ht.JPG">
+
+        <h2 id="tags">Falando sobre Tags</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>O HTML é composto por tags, que são elementos responsáveis por estruturar e organizar o conteúdo de uma página web. Vamos explorar as principais tags e suas funções:</p>
+        <li><strong>Tags de Estrutura</strong></li>
+        <ul>
+        <li> html: Envolve todo o conteúdo da página.</li>
+            <li> head : Contém metadados e configurações, como título, codificação e links externos.</li>
+            <li> body : Abriga o conteúdo visível no navegador.</li>
+        </ul>
+
+        <h2 id="Atributos">Atributos das Tags</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>Os <strong>atributos das tags</strong> HTML são usados para adicionar informações ou propriedades extras aos elementos, controlando sua aparência, comportamento ou funcionalidades. Eles são sempre definidos dentro da tag de abertura, no formato nome-do-atributo="valor".</p>
+
+        <h2 id="Texto">Textos</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>As <strong>tags de texto</strong> no HTML têm a função de estruturar, formatar e destacar partes específicas do conteúdo textual em uma página web. Elas ajudam a organizar o texto, melhorar a legibilidade e dar significado ao conteúdo para os navegadores e mecanismos de busca.</p>
+        <p><strong>Tags de Títulos e Textos</strong></p>
+        <ul>
+            <li>h1 a h6 : Definem cabeçalhos, do maior para o menor.</li>
+            <li>p : Insere uma quebra de linha.</li>
+            <li>strong (negrito) e em(itálico) Destacam texto.</li>
+        </ul>
+
+        <h2 id="Listas">Listas Ordenadas e Não Ordenadas</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>As <strong>tags de listas</strong> em HTML são usadas para organizar informações em forma de itens agrupados, facilitando a leitura e a estruturação de conteúdos. Elas são amplamente utilizadas para apresentar dados, como listas de tarefas, menus ou tópicos.</p>
+        <p><strong>Tags de Listas</strong></p>
+        <ul>
+            <li>ul : Cria uma lista não ordenada (com marcadores).</li>
+            <li>ol : Cria uma lista ordenada (numerada).</li>
+            <li>li : Define os itens de lista.</li>
+        </ul>
+
+        <h2 id="Link">Links</h2>
+        <p><a href="#inicio">(Voltar)</a></p>
+        <p>É usada para criar links em uma página HTML. Sua principal função é permitir a navegação entre páginas ou partes de um documento, redirecionar para outros sites, ou até mesmo executar ações, como abrir um arquivo para download.</p>
+        <p><strong>Tags de Links e Imagens</strong></p>
+        <ul>
+             <li>a : Cria links para outras páginas ou partes da mesma página.</li>
+             <li>img : : Insere imagens.</li>
+        </ul>
+    </body>
+
+</html>
