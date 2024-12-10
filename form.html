@@ -6,11 +6,28 @@
     <title>Formulario de Cadastro</title>
 </head>
 <body>
-    <form name="signup" onsubmit="alert('Fomulario enviado');" method="POST" action="https://meusite.com.br">
-        Nome: <input type="text" name="name" /><br>
-        Idade: <input type="number" name="age" /><br>
-        Senha: <input type="password" name="password" /><br>
+    <h2>Informações para o Cadastro</h2>
+    <hr/>
+    <form name="signup" onsubmit="alert('Fomulario enviado');" method="POST" action="#">
+        <label>Name: </label><input type="text" name="name" /><br>
+        <label>Idade: </label><input type="number" name="age" /><br>
+        <label>Senha: </label><input type="password" name="password" /><br>
+        <label>Cor favorita: </label><input type="color" name="color" /><br>
+        <label>E-mail: </label><input type="email" name="email" /><br>
+        <labe>Telefone: </labe><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /><br>
+        <label>Data de nascimento: </label><input type="date" name="date" /><br>
+        <labe>Comprovante de residência: </labe><input type="file" name="file" multiple/><br>
+        <label>Nível de conhecimento: </label> 
+            <select name="role">
+                <option value="">Selecione nível</option>
+                <option value="basico">Basíco</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+            </select><br>
+        <label>Aceito os termos do site</label><input type="checkbox" name="checkbox" /><br>
+        <label>Como nos conheceu?</label><textarea name="message"></textarea><br>
         <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
